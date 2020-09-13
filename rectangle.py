@@ -17,8 +17,13 @@ for distance in [400, -200, 400, -200]:
     jan.forward(distance)
     jan.left(90)
 
-# extent to top
+# extend to top
 for distance in [400, 300, 400, 300]:
+    jan.forward(distance)
+    jan.left(90)
+
+# start drawing lines inside with spacing of 10 units
+for distance in [10, 100]:
     jan.forward(distance)
     jan.left(90)
 
