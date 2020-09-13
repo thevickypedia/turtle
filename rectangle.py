@@ -27,4 +27,12 @@ for distance in [10, 100]:
     jan.forward(distance)
     jan.left(90)
 
+jan.right(180)
+
+for distance in [10, 100]:
+    jan.forward(distance)
+    jan.right(90)
+
+jan.right(180)
+
 wn.exitonclick()
