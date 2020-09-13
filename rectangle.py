@@ -13,6 +13,8 @@ for distance in [400, 100, 400, 100]:
     jan.left(90)
 
 # extend to bottom
-for distance in [400, -250, 400, -250]:
+for distance in [400, -200, 400, -200]:
     jan.forward(distance)
     jan.left(90)
+
+wn.exitonclick()
